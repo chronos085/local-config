@@ -13,9 +13,9 @@ zuul:
       path: /oauth/**
       serviceId: OAUTH-SERVER
       stripPrefix: false
-    ms-srdescuento:
-      path: /srdescuentos/v1/**
-      serviceId: MS-SRDESCUENTO
+    ms-paciente:
+      path: /paciente/**
+      serviceId: MS-PACIENTE
       stripPrefix: false
   ratelimit:
     enabled: false
