@@ -13,6 +13,11 @@ backend:
       ddl-auto: none
       dialect: org.hibernate.dialect.Oracle12cDialect
 
+spring:
+  datasource:
+    hikari:
+      idle-timeout: 30000
+      maximum-pool-size: 50
 
 eureka:
   instance:
