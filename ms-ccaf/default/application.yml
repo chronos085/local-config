@@ -4,7 +4,7 @@ spring:
       contact-points: 35.229.85.197
       port: 9042
       cluster-name: cluster-gcp
-      keyspace-name: CORE
+      #keyspace-name: CORE
       password: cassandra
       username: cassandra
       #consistency-level: ONE 
