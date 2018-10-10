@@ -3,12 +3,12 @@ spring:
     cassandra:
       contact-points: 35.229.85.197
       port: 9042
-      #cluster-name: cluster-gcp
-      #keyspace-name: CORE
+      cluster-name: cluster-gcp
+      keyspace-name: CORE
       password: cassandra
       username: cassandra
-      #consistency-level: ONE 
-      #connect-timeout-millis: 60000
+      consistency-level: ONE 
+      connect-timeout-millis: 60000
 
 eureka:
   instance:
