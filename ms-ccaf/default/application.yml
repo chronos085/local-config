@@ -1,7 +1,7 @@
 spring:
   data:
     cassandra:
-      contact-points: 35.229.85.197 
+      contact-points: 35.237.201.162
       port: 9042
       cluster-name: cluster-gcp
       keyspace-name: CORE
