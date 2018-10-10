@@ -25,17 +25,20 @@ zuul:
       limit: 20 #optional - request number limit per refresh interval window
       quota: 1000 #optional - request time limit per refresh interval window (in seconds)
       refresh-interval: 60 #default value (in seconds)
+  semaphore:
+    #com.netflix.hystrix.exception.HystrixRuntimeException: "microservice" could not acquire a semaphore for execution and no fallback available.
+    max-semaphores: 2000
   
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          strategy: SEMAPHORE
-          semaphore:
-            maxConcurrentRequests: 1500
-        timeout:
-          enabled: false
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          strategy: SEMAPHORE
+#          semaphore:
+#            maxConcurrentRequests: 1500
+#        timeout:
+#          enabled: false
 
 ribbon:
   ConnectTimeout: 30000
