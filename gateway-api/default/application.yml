@@ -29,16 +29,16 @@ zuul:
     #com.netflix.hystrix.exception.HystrixRuntimeException: "microservice" could not acquire a semaphore for execution and no fallback available.
     max-semaphores: 2000
   
-#hystrix:
-#  command:
-#    default:
-#      execution:
-#        isolation:
-#          strategy: SEMAPHORE
-#          semaphore:
-#            maxConcurrentRequests: 1500
-#        timeout:
-#          enabled: false
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          semaphore:
+            maxConcurrentRequests: 1500
+        timeout:
+          enabled: false
 
 ribbon:
   ConnectTimeout: 30000
