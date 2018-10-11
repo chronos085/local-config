@@ -1,1 +1,12 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: repo_receta
 
+eureka:
+  instance:
+    metadata-map:
+      management:
+        port: 9090
