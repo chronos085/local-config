@@ -27,7 +27,7 @@ zuul:
       refresh-interval: 60 #default value (in seconds)
   semaphore:
     #com.netflix.hystrix.exception.HystrixRuntimeException: "microservice" could not acquire a semaphore for execution and no fallback available.
-    max-semaphores: 2000
+    max-semaphores: 10000
   
 hystrix:
   command:
