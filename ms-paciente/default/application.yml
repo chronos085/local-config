@@ -12,6 +12,14 @@ backend:
     hibernate:
       ddl-auto: none
       dialect: org.hibernate.dialect.Oracle12cDialect
+      
+pit:
+  oauth2:
+    access-token-uri: http://apiintranet.naiss.local:9003/oauth/token
+    user-authorization-uri: http://apiintranet.naiss.local:9003/oauth/authorize
+    client-id: 8sILeXZKZNWlzLGG9qd8CEFrZ8He9Cy5
+    client-secret: nrmIiqepB9gdvK0g
+    token-tolerance: 20
  
 minsal:
   sigte:
