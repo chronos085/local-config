@@ -16,7 +16,7 @@ backend:
 minsal:
   sigte:
     api-gee:
-      crear-caso: http://apiintranet.naiss.local:9003/v1/sigte/listaEspera
+      obtener-prestadores: http://apiintranet.naiss.local:9003/v1/prestadores/institucionales
       obtener-contacto-prestadores: http://apiintranet.naiss.local:9003/v1/prestadores/contactos/institucionales
 
 spring:
