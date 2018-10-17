@@ -15,10 +15,9 @@ backend:
       
 pit:
   oauth2:
-    access-token-uri: http://apiintranet.naiss.local:9003/oauth/token
-    user-authorization-uri: http://apiintranet.naiss.local:9003/oauth/authorize
-    client-id: 8sILeXZKZNWlzLGG9qd8CEFrZ8He9Cy5
-    client-secret: nrmIiqepB9gdvK0g
+    access-token-uri: http://apiqainterno.naiss.local:9002/oauth/token
+    client-id: qUAqtQKyyD3kTAQbPAcOHNsu9bZuVIAd
+    client-secret: hDabBMbevbznVeKI
     token-tolerance: 20
  
 minsal:
