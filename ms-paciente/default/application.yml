@@ -3,9 +3,9 @@ backend:
     scheme: jdbc:oracle:thin:@
     server: mnbdqa001-scan.naiss.local
     port: 1521
-    database: PDBQASIG
+    database: PDBQASIG_PREPROD
     username: OWN_SIGTE
-    password: wqe2jtWS
+    password: x2QcE9QR
     show-sql: false
     driver-class-name: oracle.jdbc.OracleDriver
     opts:
