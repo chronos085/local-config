@@ -23,7 +23,7 @@ pit:
 minsal:
   sigte:
     api-gee:
-      obtener-prestadores: http://apiqainterno.naiss.local:9002/v1/prestadores/institucionales
+      obtener-prestadores: http://apiqainterno.naiss.local:9002/v1/prestadores/identificaciones
       obtener-contacto-prestadores: http://apiqainterno.naiss.local:9002/v1/prestadores/contactos/institucionales
 
 spring:
