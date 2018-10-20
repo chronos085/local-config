@@ -9,16 +9,12 @@ zuul:
   prefix: /api
   ignored-services: '*'
   routes:
-    security-server:
-      path: /oauth/**
-      serviceId: OAUTH-SERVER
-      stripPrefix: false
     ms-paciente:
       path: /paciente/**
       serviceId: MS-PACIENTE
       stripPrefix: false
     ms-api-soap:
-      path: /api-soap/**
+      path: /soap/**
       serviceId: MS-API-SOAP
       stripPrefix: false
   ratelimit:
