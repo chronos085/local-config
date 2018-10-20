@@ -17,6 +17,10 @@ zuul:
       path: /paciente/**
       serviceId: MS-PACIENTE
       stripPrefix: false
+    ms-api-soap:
+      path: /api-soap/**
+      serviceId: MS-API-SOAP
+      stripPrefix: false
   ratelimit:
     enabled: false
     repository: IN_MEMORY
