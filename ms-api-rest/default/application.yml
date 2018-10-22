@@ -1,3 +1,8 @@
+base:
+  rest:
+    domain: localhost
+    scheme: http
+
 pit:
   security.jwt:
     key: 7387acd61b2666c94f2f6646b6d53f6359ace919
@@ -35,3 +40,6 @@ backend:
     password:
     smtp:
       auth: false
+
+urls:
+  front: ${base.rest.scheme}://${base.rest.domain}
