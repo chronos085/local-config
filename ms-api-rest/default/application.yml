@@ -2,6 +2,9 @@ pit:
   security.jwt:
     key: 7387acd61b2666c94f2f6646b6d53f6359ace919
     cookie.secure: false
+  dam:
+    root-location: /opt/dam
+    tmp-location: /opt/sigte/tmp
   location.tmp: /opt/sigte/tmp
   mailing:
     mode: normal
