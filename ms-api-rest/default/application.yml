@@ -17,3 +17,11 @@ backend:
     hibernate:
       ddl-auto: none
       dialect: org.hibernate.dialect.Oracle12cDialect
+  mail:
+    protocol: smtp
+    host: localhost
+    port: 25
+    username:
+    password:
+    smtp:
+      auth: false
