@@ -1,1 +1,32 @@
+spring:
+  jpa:
+    database: postgresql
+    #show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://172.18.0.20:5432/semip-db
+    username: semip
+    password: YPW4xw8qyNqskRp
+    driverClassName: org.postgresql.Driver
+    #sql-script-encoding: UTF-8
 
+  data:
+    mongodb:
+      host: 172.18.0.21
+      port: 27017
+      database: repo_receta
+    #cassandra:
+      #contact-points: 192.168.219.139
+      #port: 9042
+      #cluster-name: Test Cluster 
+      #keyspace-name: receta
+
+cert.path: C:\\public_rem.key
+
+eureka:
+  instance:
+    metadata-map:
+      management:
+        port: 9090
