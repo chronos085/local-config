@@ -6,7 +6,7 @@ spring:
       ddl-auto: create-drop
   datasource:
     platform: postgres
-    url: jdbc:postgresql://172.18.0.20:5432/semip-db
+    url: jdbc:postgresql://10.40.4.101:5432/semip-db
     username: semip
     password: YPW4xw8qyNqskRp
     driverClassName: org.postgresql.Driver
