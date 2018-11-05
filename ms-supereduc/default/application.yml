@@ -1,7 +1,8 @@
 spring:
   data:
     mongodb:
-      host: 172.18.0.81
+      #host: 172.18.0.81
+      host: localhost
       port: 27017
       database: repo_cert
 
