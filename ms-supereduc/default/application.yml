@@ -5,6 +5,10 @@ spring:
       host: localhost
       port: 27017
       database: repo_cert
+     
+cert:
+  path: C:\\certificate.pfx
+  pass: server
 
 eureka:
   instance:
