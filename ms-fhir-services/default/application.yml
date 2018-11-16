@@ -1,1 +1,10 @@
+db-mongo:
+  host: localhost
+  port: 27017
+  database: repo_cert
 
+eureka:
+  instance:
+    metadata-map:
+      management:
+        port: 9090
